@@ -16,6 +16,6 @@ I used group_concat function to concat the multiple rows result into single stri
 
 I used the condition `length(flag) > 15` because there are many flags with the value N/A which are obviously not useful for us and need to be ingnored.
 
-![output.png][WriteUps/SunshineCTF2019/Web/WrestlerBook/output.png]
+![output.png](https://github.com/Sud0-u53r/WriteUps/blob/master/SunshineCTF2019/Web/WrestlerBook/output.png?raw=true)
 
 Flag : `sun{ju57_4n07h3r_5ql1_chall}`
