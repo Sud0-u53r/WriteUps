@@ -1,10 +1,10 @@
 # Wrestler Name Generator
-## This challenge is XML External Entity Challenge.
+## This challenge is XML External Entity (XXE) Challenge.
 
 URL = `http://ng.sunshinectf.org/`
 
 The webpage in given url contain two name fields and a dropdown box.
-If we give some input and submit then we will be redirected to /generate.php?input=`some base64 content`
+If we give some input and submit then we will be redirected to /generate.php?input=`some base64 content` and it is displaying our firstname and lastname with some random middle name (Some cool names ;)
 
 I immediately decoded the base64 and found that it is XML content that is sent as input to the generate.php.
 
