@@ -8,7 +8,7 @@ It is so common to check whether there is an sql injection in the login form.
 
 I tried the basic SQL injection payload username:'admin' and password:`' OR '1'='1` and it worked and we are logged in. But we can't find the flag there, instead there is hint that wrestler profile contains the flag.
 
-Now we have to use boolean based injection to get the flag in someone's profile.
+Now we have to use boolean based injection to get the flag that might be in someone's profile.
 
 First I checked the length of the table name and bruteforced each letter of the it using substr function to get the complere table name. After knowing the table name, I used the same technique to get the flag in flag column.
 
