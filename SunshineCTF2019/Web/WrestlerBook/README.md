@@ -10,7 +10,7 @@ I tried the basic SQL injection payload username:'admin' and password:`' OR '1'=
 
 Now we have to use boolean based injection to get the flag that might be in someone's profile.
 
-First I checked the length of the table name and bruteforced each letter of the it using substr function to get the complere table name. After knowing the table name, I used the same technique to get the flag in flag column.
+First I checked the length of the table name and bruteforced each letter of the it using substr function to get the complete table name. After knowing the table name, I used the same technique to get the flag in flag column.
 
 I used group_concat function to concat the multiple rows result into single string.
 
