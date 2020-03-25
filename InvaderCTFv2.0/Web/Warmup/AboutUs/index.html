@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>About Us</title>
+      <link rel="icon" href="./Invaders.team_files/logo.jpg">
+      <link rel="stylesheet" href="./Invaders.team_files/bootstrap.min.css">
+      <style>@font-face{font-family:'icons';src:url('fonts/icons.eot?dmup2v');src:url('fonts/icons.eot?dmup2v#iefix') format('embedded-opentype'), url('fonts/icons.ttf?dmup2v') format('truetype'), url('fonts/icons.woff?dmup2v') format('woff'), url('fonts/icons.svg?dmup2v#icons') format('svg');font-weight:normal;font-style:normal}body{background-color:black}i{font-family:'icons' !important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}strong{color:#35E853}body{position:relative}.page-header{font-size:150% background-color:"#B5E853"}.member-photo{margin-right:1em}i.icon+span{padding-left: .3em}i.icon{display:inline-block}.logo{margin-left:870px;margin-bottom:-276px}
+         p{
+            color: #000000;
+            /*opacity: 1.0;*/
+            font-family: Courier; 
+         }
+         .hm{
+            color:#ffffff;
+         }
+         .lk{
+            color: green;
+         }
+
+   </style>
+     <script src="./Invaders.team_files/jquery.min.js"></script> <script src="./Invaders.team_files/bootstrap.min.js"></script> 
+     <script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+   </head>
+   <body>
+      <div class="container">
+         <div class="page-header">
+            <div class="row">
+               <div class="col-lg-9 col-md-8 col-sm-7">
+                  <img class="logo" src="./Invaders.team_files/logo1.jpg" height="300" width="300">
+                  <h1><strong color="#35E853">Invaders</strong><span style="font-size:16px;color:#7AA;"> is an Indian CTF team.<br> We are proud to say that we are 3rd best CTF Team in India.<br> We started our jouney in November 2018, and rest is history.<br> We regulary participate in CTFs to improve our skills, Live Hacking Competitions for fun and profit.<br> Recently started doing Bug Bounties for fun and profit (dollars dude), Hackathons, <font color="#00FF00">whatever the competition is Invaders gives their best.</font></h1>
+                  <hr>
+                  <p class="hm"> See our CTFtime profile at <a href="https://ctftime.org/team/71588"><span>ctftime.org</span></a>.</p>
+                  <p class="hm"> Follow us at <a href="https://twitter.com/teaminvaders0"><i class="fab fa-twitter"></i><span>Invaders</span></a>.</p>
+                  <p class="hm">You can contact us at <a href="mailto:teaminvaders0@gmail.com"><i class="icon icon-envelope-o" aria-hidden=""></i><span>teaminvaders0@gmail.com</span></a>.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <br>
+      <div class="container">
+      	 <h1 style="color:#FFFFFF">Achievements</h1>
+      	<pre style="background-color: black;">
+      		<!-- <code> -->
+<font color="#5C5CFF"><b>~/Invaders</b></font>
+├── <font color="#FF0000"><b>Achievements</b></font>
+│   ├── <font color="#00FF00"><b>1st in Amritha India Attack-Defense style CTF conducted by ​@teambi0s</b></font>
+│   ├── <font color="#00FF00"><b>2nd position in CodeFestCTF organised by IIT(BHU),Varanasi​</b></font>
+│   ├── <font color="#00FF00"><b>1st,2nd place in elan and nvision CTF 2k19 organised by ​IIT Hyderabad</b></font>
+│   ├── <font color="#00FF00"><b>2nd,3rd place in Shaastra CTF-2k19 organised by ​IIT Madras</b></font>
+│   ├── <font color="#00FF00"><b>8th place in International Level PragyanCTF organised by ​NIT Trichy</b></font>
+│   ├── <font color="#00FF00"><b>9th position in ENCRYPT CTF organised by ​Abs0lut3Pwn4g3</b></font>
+│   ├── <font color="#00FF00"><b>19th among 520 teams in the International Junior 35c3CTF organised by EatSleepPwnRpt</b></font>
+│   ├── <font color="#00FF00"><b>22nd position in SunShine CTF organised by ​Knightsec​</b></font>
+│   ├── <font color="#00FF00"><b>27th place in CONFidence CTF 2019 Teaser organised by​ ​p4_team​</b></font>
+│   ├── <font color="#00FF00"><b>32nd position in the globally organised​ ​TAMU-CTF conducted by ​Texas A&amp;M University​</b></font>
+│   └── <font color="#00FF00"><b>Qualified for CSAW-Finals with 6th position to be held at IIT-Kanpur</b></font>
+├── <font color="#FF0000"><b>Bug Bounty</b></font>
+│   ├── <font color="#00FF00"><b>Account Takeover using Stored XSS in a private bug bounty program on ​Hackerone​</b></font>
+│   │   ├── <font color="#FF00FF">@D1r3Wolf</font>
+│   │   └── <font color="#FF00FF">@S1r1u5</font>
+│   ├── <font color="#00FF00"><b>Participated in ​Hackrew​, the live hacking event and reported an open redirection vuln</b></font>
+│   │   ├── <font color="#FF00FF">@D1r3Wolf</font>
+│   │   ├── <font color="#FF00FF">@S1r1u5</font>
+│   │   └── <font color="#FF00FF">@Sud0_u53r</font>
+│   ├── <font color="#00FF00"><b>Reflected XSS on main page itself in a private bug bounty program on ​Hackerone​</b></font>
+│   │   ├── <font color="#FF00FF">@D1r3Wolf</font>
+│   │   ├── <font color="#FF00FF">@S1r1u5</font>
+│   │   └── <font color="#FF00FF">@Sud0_u53r</font>
+│   └── <font color="#00FF00"><b>Tutorialspoint​ Admin Account Takeover Using Stored XSS</b></font>
+│       ├── <font color="#FF00FF">@D4r3_D3v1L_</font>
+│       ├── <font color="#FF00FF">@NainaNavs</font>
+│       └── <font color="#FF00FF">@X0r_D3v1L</font>
+├── <font color="#FF0000"><b>Total Rewards</b></font>
+│   ├── <font color="#00FF00"><b>Bug Bounty till date :: $ 1700</b></font>
+│   └── <font color="#00FF00"><b>CTF Prize money till date :: 71,000 INR</b></font>
+└── <font color="#FF0000"><b>Hold,Don't Judge! More to come ;)</b></font>
+<!-- </code> -->
+</pre>
+      <!-- <pre style="overflow-x: auto;white-space: pre-wrap;white-space: -moz-pre-wrap;white-space: -pre-wrap;white-space: -o-pre-wrap;"> -->
+      <pre style="white-space: pre-wrap;word-break: keep-all;background-color: #300a24;color: white;" align="justify">
+<font color="#8AE234"><b>h4ck3r@Invaders</b></font>:<font color="#729FCF"><b>~</b></font>$ cat notice.txt
+   Above are some achievements of Team Invaders, We are not bragging about us, we want to motivate RGUKTNs by showing our achievements. Some people asked us to give prize money for the winners, giving prize money is not at all problem for us, we can give a reward from our bounty pockets. But the thing you should understand is we are showing you the path to excel in Information Security and that too if you prove yourself you can hack with us, you can see the crazy things we do for fun, you can rapidly learn things we already know. Last year we selected @D4r3_D3v1L, @X0r_D3v1L and @S3v3ru5 now they are doing awesome things, funny thing is they hacked tutorialspoint(everybody knows) and they got the bounty.
+      </pre>
+</div>
+      <div class="container">
+      <h1 style="color:#FFFFFF">Active Members</h1>
+      <div class="row">
+      <div class="col-sm-6 col-xs-12">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h3 class="panel-title"><strong class="lk">S1r1u5</strong><em class="pull-right text-muted">Mohan Sri RamaKrishna P</em></h3>
+            </div>
+            <div class="panel-body member-panel">
+               <img src="./Invaders.team_files/mohan1.png" width="200" height="190" class="member-photo img-thumbnail pull-left">
+               <p>Day Data Scientist | Night Hacker</p>
+               <p>Bug Bounty Hunter</p>
+               <p>Likes: High-level, Low Level, Reverse Engineering, Cryptography, Algorithms, Math, AI, Pentester.</p>
+               <p><a href="mailto:l33tsirius@gmail.com"><i class="icon icon-envelope-o" aria-hidden=""></i><span>l33tsirius@gmail.com</span></a></p>
+               <p><a href="https://www.s1r1us.ninja/"><i class="icon icon-globe" aria-hidden=""></i><span>s1r1us.ninja</span></a></p>
+               <p><a href="https://twitter.com/S1r1u5_"><i class="icon icon-twitter" aria-hidden=""></i><span>S1r1u5_</span></a></p>
+            </div>
+         </div>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h3 class="panel-title"><strong class="lk">D1r3Wolf</strong><em class="pull-right text-muted">Ajay Shankar Kunapareddy</em></h3>
+            </div>
+            <div class="panel-body member-panel">
+               <img src="./Invaders.team_files/aj.jpg" width="200" height="200" class="member-photo img-thumbnail pull-left">
+               <p>Problem solver and enthusiast in learning new things. Ready to accept work whenever team needs support.</p>
+               <p>Likes: Low-Level,High-Level,Python,Hacking,Web Development and Pentesting.</p>
+               <p><a href="mailto:d1r3wolf@gmail.com"><i class="icon icon-envelope-o" aria-hidden=""></i><span>d1r3wolf@gmail.com</span></a></p>
+               <p><a href="https://d1r3wolf.blogspot.com/"><i class="icon icon-globe" aria-hidden=""></i><span>d1r3wolf.blogspot.com</span></a></p>
+               <p><a href="https://twitter.com/D1r3_Wolf_"><i class="icon icon-twitter" aria-hidden=""></i><span>D1r3_Wolf_</span></a></p>
+            </div>
+         </div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="col-sm-6 col-xs-12">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h3 class="panel-title"><strong class="lk">Sud0_u53r</strong><em class="pull-right text-muted">Akash Gurugunti</em></h3>
+            </div>
+            <div class="panel-body member-panel">
+               <img src="./Invaders.team_files/ak.jpg" width="200" height="200" class="member-photo img-thumbnail pull-left">
+               <p>Simple,Smart and a bit pessimistic man. Always ready to make things and break things.During CTFs works mostly in web.</p>
+               <p>Specialises in: Python,Hacking,Web Development and Pentesting.</p>
+               <p><a href="mailto:akashak00011@gmail.com"><i class="icon icon-envelope-o" aria-hidden=""></i><span>akashak00011@gmail.com</span></a></p>
+               <p><a href="https://github.com/Sud0-u53r"><i class="icon icon-globe" aria-hidden=""></i><span>github.com/Sud0-u53r</span></a></p>
+               <p><a href="https://twitter.com/Sud0_u53r"><i class="icon icon-twitter" aria-hidden=""></i><span>Sud0_u53r</span></a></p>
+            </div>
+         </div>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h3 class="panel-title"><strong class="lk">S3v3ru5</strong><em class="pull-right text-muted">Vara Prasad B</em></h3>
+            </div>
+            <div class="panel-body member-panel">
+               <img src="./Invaders.team_files/vara.png" width="200" height="200" class="member-photo img-thumbnail pull-left">
+               <p>Math guy of our team.Visualizes everything in a mathematical way.Connects the dots easily.</p>
+               <p>Keen Learner.</p>
+               <p>Likes: Math,Crypto,Python,Algo</p>
+               <p><a href="mailto:vara10110@gmail.com"><i class="icon icon-envelope-o" aria-hidden=""></i><span>vara10110@gmail.com</span></a></p>
+               <p><a href="https://twitter.com/S3v3ru5_"><i class="icon icon-twitter" aria-hidden=""></i><span>S3v3ru5_</span></a></p>
+            </div>
+         </div>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h3 class="panel-title"><strong class="lk">X0r_D3v1L</strong><em class="pull-right text-muted">Benarjee Sambangi</em></h3>
+            </div>
+            <div class="panel-body member-panel">
+               <img src="./Invaders.team_files/Ben.jpg" width="200" height="200" class="member-photo img-thumbnail pull-left">
+               <p>Too lazy to build things, but always happy to break something.During CTFs works mostly in Forensics, but also does some pwns from time to time.</p>
+               <p>Likes: Python,Hacking,Binary Exploitation.</p>
+               <p><a href="mailto:sbenarjee7@gmail.com"><i class="icon icon-envelope-o" aria-hidden=""></i><span>sbenarjee7@gmail.com</span></a></p>
+               <p><a href="https://twitter.com/X0r_D3v1L"><i class="icon icon-twitter" aria-hidden=""></i><span>X0r_D3v1L</span></a></p>
+            </div>
+         </div>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h3 class="panel-title"><strong class="lk">N41n4</strong><em class="pull-right text-muted">Naveen Kumar Naik J</em></h3>
+            </div>
+            <div class="panel-body member-panel">
+               <img src="./Invaders.team_files/NavsNaina.jpg" width="200" height="200" class="member-photo img-thumbnail pull-left">
+               <p>Passionate,Intuitive,Patient,Highly-Skilled in Forensics.</p>
+               <p>Interests: Python,Forensics,Hacking</p>
+               <p><a href="mailto:naina.navs@gmail.com"><i class="icon icon-envelope-o" aria-hidden=""></i><span>naina.navs@gmail.com</span></a></p>
+               <p><a href="https://n41n4.wordpress.com/"><i class="icon icon-globe" aria-hidden=""></i><span>n41n4.wordpress.com</span></a></p>
+               <p><a href="https://twitter.com/NainaNavs"><i class="icon icon-twitter" aria-hidden=""></i><span>NainaNavs</span></a></p>
+            </div>
+         </div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="col-sm-6 col-xs-12">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h3 class="panel-title"><strong class="lk">D4r3_D3v1L</strong><em class="pull-right text-muted">Surya Prakash A</em></h3>
+            </div>
+            <div class="panel-body member-panel">
+               <img src="./Invaders.team_files/surya1.png" width="200" height="50" class="member-photo img-thumbnail pull-left">
+               <p>Mnemonist,forensicer,pwner sometimes</p>
+               <p>Night Owl,Always learns how things work</p>
+               <p>Likes: Python,Hacking</p>
+               <p><a href="mailto:a.surya842000@gmail.com"><i class="icon icon-envelope-o" aria-hidden=""></i><span>a.surya842000@gmail.com</span></a></p>
+               <p><a href="https://twitter.com/D4r3_D3v1L_"><i class="icon icon-twitter" aria-hidden=""></i><span>D4r3_D3v1L_</span></a></p>
+            </div>
+         </div>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h3 class="panel-title"><strong class="lk">Hacker</strong><em class="pull-right text-muted">It's your turn</em></h3>
+            </div>
+            <div class="panel-body member-panel">
+               <img src="./Invaders.team_files/hack.jpg" style="height: 200px;width: 40%;" class="member-photo img-thumbnail pull-left">
+               <p>Join us for the glory</p>
+               <p> Prove  Yourself</p>
+               <p>Invader{N0w_g0_f0r_th3_n3x7_0ne}</p>
+               <p><a href="mailto:teaminvaders0@gmail.com"><i class="icon icon-envelope-o" aria-hidden=""></i><span>teaminvaders0@gmail.com</span></a></p>
+            </div>
+         </div>
+      </div>
+      <h1 style="color:#FFFFFF">Others</h1>
+      <div class="clearfix"></div>
+      <div class="col-sm-6 col-xs-12">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h3 class="panel-title"><strong class="lk">Wh1t3_D3v1L</strong><em class="pull-right text-muted">Sravan Kumar</em></h3>
+            </div>
+            <div class="panel-body member-panel">
+               <img src="./Invaders.team_files/sravan.jpg" width="200" height="200px" class="member-photo img-thumbnail pull-left">
+               <p>Techie,Developer</p>
+               <p>Likes: Web Development</p>
+               <p><a href="https://twitter.com/KskSravan"><i class="icon icon-twitter" aria-hidden=""></i><span>KskSravan</span></a></p>
+            </div>
+         </div>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h3 class="panel-title"><strong class="lk">Sumanth</strong><em class="pull-right text-muted">Sumanth Sure</em></h3>
+            </div>
+            <div class="panel-body member-panel">
+               <img src="./Invaders.team_files/sure.png" width="200" height="200" class="member-photo img-thumbnail pull-left">
+               <p>Intense Learner</p>
+               <p>Likes: Crypto,Math,Algo</p>
+            </div>
+         </div>
+     </div>
+          <h1 style="color:#FFFFFF">Designer</h1>
+
+      <div class="col-sm-6 col-xs-12">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h3 class="panel-title"><strong class="lk">tsrtmr_37</strong><em class="pull-right text-muted">Manikanta Reddy T</em></h3>
+            </div>
+            <div class="panel-body member-panel">
+               <img src="./Invaders.team_files/mani.jpeg" width="200" height="200px" class="member-photo img-thumbnail pull-left">
+               <p>Designer of the Team, Programmer & UI/UX Designer and finally mathematics lover forever.</p>
+               <p>Man behind the Logo & every poster of Team Invaders</p>
+               <p>Likes:Crypto,Web Development,Python,<br>Adobe Photoshop & Illustrator & InDesign</p>
+               <p><a href="https://twitter.com/tsrtmr_37"><i class="icon icon-twitter" aria-hidden=""></i><span>tsrtmr_37</span></a></p>
+            </div>
+         </div>
+      </div>
+      </div>
+   </body>
+</html>
